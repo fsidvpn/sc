@@ -38,7 +38,7 @@ cat>/etc/v2ray/$user-tls.json<<EOF
       "id": "${uuid}",
       "aid": "0",
       "net": "ws",
-      "path": "/fsidvpn",
+      "path": "/brody",
       "type": "none",
       "host": "",
       "tls": "tls"
@@ -53,7 +53,7 @@ cat>/etc/v2ray/$user-none.json<<EOF
       "id": "${uuid}",
       "aid": "0",
       "net": "ws",
-      "path": "/fsidvpn",
+      "path": "/brody",
       "type": "none",
       "host": "",
       "tls": "none"
