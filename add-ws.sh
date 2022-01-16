@@ -36,9 +36,9 @@ cat>/etc/v2ray/$user-tls.json<<EOF
       "add": "${domain}",
       "port": "${tls}",
       "id": "${uuid}",
-      "aid": "2",
+      "aid": "0",
       "net": "ws",
-      "path": "/brody",
+      "path": "/fsidvpn",
       "type": "none",
       "host": "",
       "tls": "tls"
@@ -51,9 +51,9 @@ cat>/etc/v2ray/$user-none.json<<EOF
       "add": "${domain}",
       "port": "${none}",
       "id": "${uuid}",
-      "aid": "2",
+      "aid": "0",
       "net": "ws",
-      "path": "/brody",
+      "path": "/fsidvpn",
       "type": "none",
       "host": "",
       "tls": "none"
@@ -73,11 +73,11 @@ echo -e "Domain         : ${domain}"
 echo -e "port TLS       : ${tls}"
 echo -e "port none TLS  : ${none}"
 echo -e "id             : ${uuid}"
-echo -e "alterId        : 2"
+echo -e "alterId        : 0"
 echo -e "Security       : auto"
 echo -e "network        : ws"
-echo -e "path TLS       : /brody"
-echo -e "path non TLS   : /brody"
+echo -e "path TLS       : /fsidvpn"
+echo -e "path non TLS   : /fsidvpn"
 echo -e "Created        : $created"
 echo -e "Expired        : $exp"
 echo -e "================================="
@@ -86,5 +86,5 @@ echo -e "================================="
 echo -e "link none TLS  : ${vmesslink2}"
 echo -e "================================="
 echo -e ""
-echo -e "Script By Brody"
+echo -e "Script By FsidVpn"
 echo -e ""
