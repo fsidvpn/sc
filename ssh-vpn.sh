@@ -1,5 +1,5 @@
 #!/bin/bash
-# By SSH SEDANG
+# By FSID VPN
 #
 # ==================================================
 
@@ -15,10 +15,10 @@ ver=$VERSION_ID
 country=ID
 state=Indonesia
 locality=Indonesia
-organization=www.sshsedang.my.id
-organizationalunit=www.sshsedang.my.id
-commonname=www.sshsedang.my.id
-email=admin@www.sshsedang.my.id
+organization=fsidvpn
+organizationalunit=fsidvpn
+commonname=fsidvpn.tk
+email=awaledyan@gmail.com
 
 # simple password minimal
 wget -O /etc/pam.d/common-password "https://raw.githubusercontent.com/fsidvpn/sc/main/password"
@@ -156,7 +156,7 @@ socket = r:TCP_NODELAY=1
 
 [stunnelws]
 accept = 443
-connect = 127.0.0.1:8880
+connect = 127.0.0.1:100
 
 [dropbear]
 accept = 445
