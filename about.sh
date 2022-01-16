@@ -2,7 +2,7 @@
 
 clear
 echo -e "========================================"
-echo -e "#                 Premium Auto Script Brody                    #"
+echo -e "#                 Premium Auto Script Fsidvpn                    #"
 echo -e "#-----------------------------------------------------------------------------#"
 echo -e "# For Debian 9 & Debian 10 64 bit                            #"
 echo -e "# For Ubuntu 18.04 & Ubuntu 20.04 64 bit            #"
