@@ -38,7 +38,7 @@ cat>/etc/v2ray/$user-tls.json<<EOF
       "id": "${uuid}",
       "aid": "0",
       "net": "ws",
-      "path": "/brody",
+      "path": "/fsid",
       "type": "none",
       "host": "",
       "tls": "tls"
@@ -53,7 +53,7 @@ cat>/etc/v2ray/$user-none.json<<EOF
       "id": "${uuid}",
       "aid": "0",
       "net": "ws",
-      "path": "/brody",
+      "path": "/fsid",
       "type": "none",
       "host": "",
       "tls": "none"
@@ -76,8 +76,8 @@ echo -e "id             : ${uuid}"
 echo -e "alterId        : 0"
 echo -e "Security       : auto"
 echo -e "network        : ws"
-echo -e "path TLS       : /brody"
-echo -e "path non TLS   : /brody"
+echo -e "path TLS       : /fsid"
+echo -e "path non TLS   : /fsid"
 echo -e "Created        : $created"
 echo -e "Expired        : $exp"
 echo -e "================================="
