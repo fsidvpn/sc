@@ -3,7 +3,7 @@ red='\e[1;31m'
 green='\e[0;32m'
 NC='\e[0m'
 MYIP=$(wget -qO- icanhazip.com);
-echo "Script By Brody"
+echo "Script By FSIDVPN"
 clear
 if [[ "$IP2" = "" ]]; then
 domain=$(cat /etc/v2ray/domain)
@@ -55,7 +55,7 @@ echo -e "SSL/TLS     : 445, 990"
 echo -e "Squid  : 3128, 8080"
 echo -e "Openvpn TCP    : 1194"
 echo -e "Openvpn UDP    : 2200"
-echo -e "Openvpn SSL    : 442"
+echo -e "Openvpn SSL    : 992"
 echo -e "BadVpn      : 7100-7300"
 echo -e "==============================="
 echo -e "PAYLOAD WS  :"
