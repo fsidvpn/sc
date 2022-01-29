@@ -6,9 +6,9 @@ clear
 apt install jq curl -y
 DOMAIN=fsind.site
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c4)
-SUB_DOMAIN=${sub}.fsind.site
-CF_ID=awaledyan@gmail.com
-CF_KEY=0274dfd4c74a369ce7f28c048be8ca11f7828
+SUB_DOMAIN=${sub}.zeaking.me
+CF_ID=mulahkual@gmail.com
+CF_KEY=1351e3252ad80b9a761d34d125545053403b5
 set -euo pipefail
 IP=$(wget -qO- icanhazip.com);
 echo "Updating DNS for ${SUB_DOMAIN}..."
