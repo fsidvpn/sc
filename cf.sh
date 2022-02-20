@@ -4,9 +4,9 @@ green='\e[0;32m'
 NC='\e[0m'
 clear
 apt install jq curl -y
-DOMAIN=autoserv.cf
+DOMAIN=fsind.site
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c4)
-SUB_DOMAIN=${sub}.autoserv.cf
+SUB_DOMAIN=${sub}.fsind.site
 CF_ID=awaledyan@gmail.com
 CF_KEY=0274dfd4c74a369ce7f28c048be8ca11f7828
 set -euo pipefail
